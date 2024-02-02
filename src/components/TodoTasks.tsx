@@ -62,7 +62,7 @@ export const TodoTasks = () => {
 
     return (
         <BoxTodoTask>
-            <H1Styled>Todo List</H1Styled>
+            <H1Styled>My Todo-s</H1Styled>
             <TaskWrapperStyled>
                 <TaskCreateWrapper task={TodoTask} setTodoTask={setTodoTask} newTask={newTask} setNewTask={setNewTask}
                                    handlePressKey={handlePressKey}/>

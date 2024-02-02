@@ -10,7 +10,7 @@ export const FooterStyled = styled.div`
         padding: 0px;
 
         li {
-            padding: 0px;
+            padding: 0;
             cursor: pointer;
             color: #000;
 
@@ -21,8 +21,17 @@ export const FooterStyled = styled.div`
             }
 
             &.active {
-                border: 1px solid red;
-                border-radius: 5px;
+                border: 1px solid transparent;
+            }
+
+            &.btn_all {
+                border-color: #17a2b8 !important;
+            }
+            &.btn_active {
+                border-color: #20c997 !important;
+            }
+            &.btn_complete {
+                border-color: #007bff !important;
             }
         }
     }

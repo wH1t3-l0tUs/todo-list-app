@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const H1Styled = styled.h1`
-    color: red;
+    color: #007bff;
     text-align: center;
 `;
 
@@ -14,6 +14,7 @@ export const InputStyled = styled.div`
     justify-content: center;
     align-content: center;
     position: relative;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     
     svg {
         display: flex;
@@ -29,8 +30,8 @@ export const InputStyled = styled.div`
         text-indent: 50px;
 
         &:focus {
-            outline: 1px solid #b83f45;
-            box-shadow: 0 0 2px 2px #cf7d7d;
+            //outline: 1px solid #ffc107;
+            outline: 1px solid #17a2b8;
         }
         ::placeholder {
             font-style: italic;

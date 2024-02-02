@@ -20,13 +20,13 @@ export const FooterTask = (props: FooterTaskProps) => {
             </BoxStyled>
             <FooterStyled>
                 <ul>
-                    <li className={location.pathname === '/' ? 'active' : ''}>
+                    <li className={location.pathname === '/' ? 'active btn_all' : ''}>
                         <Link to="/">All</Link>
                     </li>
-                    <li className={location.pathname == '/active' ? 'active' : ''}>
+                    <li className={location.pathname == '/active' ? 'active btn_active' : ''}>
                         <Link to="/active">Active</Link>
                     </li>
-                    <li className={location.pathname === '/complete' ? 'active' : ''}>
+                    <li className={location.pathname === '/complete' ? 'active btn_complete' : ''}>
                         <Link to="/complete">Completed</Link>
                     </li>
                 </ul>

@@ -30,7 +30,7 @@ export const TaskCreateWrapper = (props: TaskCreateWrapperProps) => {
     return (
         <InputStyled>
             <FontAwesomeIcon onClick={handleCheckAll} icon={faSortDown} color='#cccccc' size='2x'/>
-            <input onChange={(e) => handleOnChange(e)} type="text" placeholder="What needs to be done?"
+            <input onChange={(e) => handleOnChange(e)} type="text" placeholder="Create new task..."
                    onKeyDown={handlePressKey}
                    value={newTask}/>
         </InputStyled>

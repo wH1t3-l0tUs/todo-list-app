@@ -42,17 +42,17 @@ export const TaskItemStyled = styled.div<{ status: boolean, isEdit: boolean }>`
         position: relative;
 
         input {
-            font-size: 20px;
-            padding: 10px 10px 10px 0px;
+            padding: 5px 5px 5px 0;
+            text-indent: 50px;
             border: none;
             width: 100%;
             background: none;
-            box-shadow: 1px 1px 5px 1px rgba(255, 0, 0, 0.75);
-            -webkit-box-shadow: 1px 1px 5px 1px rgba(255, 0, 0, 0.75);
-            -moz-box-shadow: 1px 1px 5px 1px rgba(255, 0, 0, 0.75);
+            box-shadow: 1px 1px 5px 1px #ffc107;
+            -webkit-box-shadow: 1px 1px 5px 1px #ffc107;
+            -moz-box-shadow: 1px 1px 5px 1px #ffc107;
 
             &:focus {
-                outline: red;
+                outline: none;
             }
         }
     }
